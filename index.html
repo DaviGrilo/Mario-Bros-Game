@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="website icon" type="png" href="./images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/script.js"></script>    
+    <title>Mario Bros</title>
+</head>
+<body>
+    
+    <div class="game-board">
+        <div class="score">Score: 0</div>
+        <img src="./images/clouds.png" class="clouds">
+        <img src="./images/mario.gif" class="mario">
+        <img src="./images/pipe.png" class="pipe">
+    </div>
+
+    <div class="start-screen">
+        <img src="./images/logo.png" class="title-image">
+        <button class="start" onclick="startGame()">Iniciar</button>
+    </div>
+
+    <div class="game-over">
+        <h1>Game Over</h1>
+        <button onclick="restartGame()">Reiniciar</button>
+    </div>
+
+</body>
+</html>
