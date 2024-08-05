@@ -8,7 +8,7 @@ Jogo simples do Mario desenvolvido com HTMl, CSS e JavaScript baseado no jogo do
 - **Reiniciar Jogo:** Um botão de "Reiniciar" é exibido após o "Game Over" para começar um novo jogo.
 
 ## Controle
-Espaço: Faz o Mario pular.
+**Espaço:** Faz o Mario pular.
 
 ## Tecnologias Utilizadas
 - HTML
